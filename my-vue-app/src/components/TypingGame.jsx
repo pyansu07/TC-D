@@ -11,7 +11,7 @@ const sentences = [
 const TypingGame = ({ score, setScore, socket }) => {
     const [currentSentence, setCurrentSentence] = useState('');
     const [userInput, setUserInput] = useState('');
-    const [time, setTime] = useState(10);
+    const [time, setTime] = useState(60);
     const [isGameStarted, setIsGameStarted] = useState(false);
     const [accuracy, setAccuracy] = useState(100);
     const [wordsPerMinute, setWordsPerMinute] = useState(0);
