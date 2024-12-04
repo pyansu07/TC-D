@@ -7,7 +7,7 @@ const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5174";
 
 const io = new Server(httpServer, {
   cors: {
-    origin: CLIENT_URL,
+    origin: "*",
     methods: ["GET", "POST"]
   }
 });
