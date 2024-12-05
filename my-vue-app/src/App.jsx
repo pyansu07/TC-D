@@ -183,8 +183,11 @@ const App = () => {
                             Compete with 3 other players in this typing challenge!
                         </p>
                         <button className="login-button" onClick={playOnlineClick}>
-                            Login to Play
+                            Login anonymously to Play
                         </button>
+                        <p className="login-subtitle">
+                           Please hold on after logging in — this may take a moment!
+                        </p>
                     </div>
                     <div className="login-image">
                         <img
